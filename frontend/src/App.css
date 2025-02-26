@@ -1,0 +1,71 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  padding: 20px 0;
+}
+
+.primary-title {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.header-container {
+  margin-bottom: 2rem;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+.btn-primary {
+  background-color: #4e73df;
+  border-color: #4e73df;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+  border-color: #2653d4;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e8f0fe;
+  color: #4e73df;
+}
+
+.alert-success {
+  background-color: #e6f7ec;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+/* Animation pour les transitions */
+.card,
+.btn,
+.form-control,
+.alert {
+  transition: all 0.3s ease;
+}
